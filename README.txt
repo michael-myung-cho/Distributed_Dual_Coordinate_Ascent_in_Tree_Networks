@@ -11,30 +11,25 @@ Distribued machine learning process (solving a regularized loss minimzation prob
 
 ------------------------
 C. CONTENTS:
-
 libsvm-3.23 libary is used to read Covtype dataset in Matlab.
 
 C.1. FOLDERS
 00_Dataset: Datasets are provided. KDD and Covtype dataset are used in the code.
-
 01_KDD_regression: Regression operation with KDD dataset
-
 02_Cov_classification: Classification operation with Covtype dataset
-
 03_Optimal_H: Analysis code for optimal number of local iterations
-
 04_Layer_vs_Convergence: Analysis code for convergence rate change with respect to the number of layer in a tree network
 
 
 C.2. MAIN FILES & To-Do
 Due to file size limitation in GitHub, we couldn't upload original datasets, or needed to compress the dataset. You need to upzip or run a code for preprocessing dataset.
 
-C.3. Running KDD_regression
+C.2.1 Running KDD_regression
 (a) Go to the folder "00_Dataset/KDD" 
 (b) Run "data_load.m" in matlab in the folder "00_Dataset/KDD". The matlab will generate a mat file "KddData_normalized.mat", which will be used in the main file. 
 (c) Go to the folder "01_KDD_regression", and run "main.m" in matlab.
 
-C.4. Running Cov_classification
+C.2.2 Running Cov_classification
 (a) Go to the folder "00_Dataset/cov" 
 (b) Upzip "covtype.libsvm.binary.scale.zip", and make sure that "covtype.libsvm.binary.scale" is unzip under the folder "00_Dataset/cov"
 (c) Go to the folder "02_Cov_classification", and run "main.m" in matlab.
@@ -42,6 +37,7 @@ C.4. Running Cov_classification
 
 ------------------------
 D. ADDITION
+(a) Dataset info.
 Dataset were obtained from the machine learning repository (https://archive.ics.uci.edu) and LIBSVM homepage (https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html)
 
 (b) Contact info.: Myung (Michael) Cho, Ph.D. 
