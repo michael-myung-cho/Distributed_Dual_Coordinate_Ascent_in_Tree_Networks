@@ -15,10 +15,15 @@ libsvm-3.23 libary is used to read Covtype dataset in Matlab.
 
 C.1. FOLDERS
 00_Dataset: Datasets are provided. KDD and Covtype dataset are used in the code.
+
 01_KDD_regression: Regression operation with KDD dataset
+
 02_Cov_classification: Classification operation with Covtype dataset
+
 03_Optimal_H: Analysis code for optimal number of local iterations
+
 04_Layer_vs_Convergence: Analysis code for convergence rate change with respect to the number of layer in a tree network
+
 
 C.2. MAIN FILES & To-Do
 Due to file size limitation in GitHub, we couldn't upload original datasets, or needed to compress the dataset. You need to upzip or run a code for preprocessing dataset.
