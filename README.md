@@ -11,6 +11,7 @@ Distribued machine learning process (solving a regularized loss minimzation prob
 
 ------------------------
 C. CONTENTS:
+
 libsvm-3.23 libary is used to read Covtype dataset in Matlab.
 
 C.1. FOLDERS
